@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Mulish', sans-serif;
+}
+
+:root {
+  font-size: 62.5%;
+  --color-base-pink: #B52184;
+  --color-base-blue: #312D64;
+  --color-base-white: #FFFFFF;
+  --color-base-white-100: #F9F4FB;
+
+}
+
+header {
+  text-align: center;
+}
+
+header .astro {
+  border: none;
+}
+
+header h1 {
+  margin-top: 1.7rem;
+  color: var(--color-base-pink);
+  font-size: 3.2rem;
+  font-weight: 900;
+  text-align: center;
+}
+
+header p {
+  font-size: 2.0rem;
+  font-weight: 600;
+  margin-bottom: 3.5rem;
+}
+
+header .scroll-button {
+  margin-bottom: 9.3rem;
+}
+
+main {
+  display: flex;
+  grid-template-columns: 1fr;
+  background-color: var(--color-base-blue);
+  gap: 5.0rem;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 5.2rem;
+  padding-bottom: 5.2rem;
+}
+
+main h2 {
+  color: var(--color-base-pink);
+  font-weight: 900;
+  font-size: 3.0rem;
+  margin-top: 3.3rem;
+  margin-bottom: 2.0rem;
+}
+
+main p {
+  color: var(--color-base-blue);
+  font-size: 1.6rem;
+  font-weight: 600;
+  max-width: 26.5rem;
+}
+
+main .container {
+  background: var(--color-base-white);
+  display: grid;
+  border-radius: 2.0rem;
+  padding: 2.6rem;
+  width: 35.2rem;
+  background-image: linear-gradient() ;
+}
+
+form {
+  text-align: center;
+  background-color: var(--color-base-white-100);
+}
+
+form h3 {
+  color: var(--color-base-pink);
+  font-size: 3.2rem;
+  font-weight: 900; 
+  padding-top: 7.8rem;
+  margin-bottom: 4.3rem;
+}
+
+.input-wrapper input, .input-wrapper textarea{
+  padding: 1.2rem 1.6rem 1.2rem 1.4rem;
+  width: 34.8rem;
+  border-radius: 1.6rem;
+  border-radius: 16px;
+  border: 0.2rem solid var(--color-base-blue);
+  margin-bottom: 2.4rem;
+  background: var(--color-base-white-100);
+}
+
+.input-wrapper textarea {
+  height: 12.6rem;
+  font-family: 'Mulish';
+  
+}
+
+::placeholder {
+  color: var(--color-base-blue);
+}
+
+
